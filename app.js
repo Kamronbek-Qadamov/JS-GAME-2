@@ -11,19 +11,19 @@ btn.addEventListener("click", () => {
 
   // birinchi o'yinchi uchun rasm chiqarish
   if (first_random_number == 0) {
-    first_player_img.setAttribute("src", "./img/paper.png");
+    first_player_img.setAttribute("src", "paper.png");
   } else if (first_random_number == 1) {
-    first_player_img.setAttribute("src", "./img/rock.png");
+    first_player_img.setAttribute("src", "rock.png");
   } else {
-    first_player_img.setAttribute("src", "./img/scissors.png");
+    first_player_img.setAttribute("src", "scissors.png");
   }
   // Ikkinchi o'yinchi uchun rasm chiqarish
   if (second_random_number == 0) {
-    second_player_img.setAttribute("src", "./img/paper.png");
+    second_player_img.setAttribute("src", "paper.png");
   } else if (second_random_number == 1) {
-    second_player_img.setAttribute("src", "./img/rock.png");
+    second_player_img.setAttribute("src", "rock.png");
   } else {
-    second_player_img.setAttribute("src", "./img/scissors.png");
+    second_player_img.setAttribute("src", "scissors.png");
   }
 
   // 0 - paper
